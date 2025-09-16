@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.acpt.memorymanagement.Controller.EmployeeController">
+   <children>
+      <TextField fx:id="txtid" layoutX="120.0" layoutY="89.0" prefHeight="26.0" prefWidth="362.0" promptText="id number" />
+      <Label layoutX="176.0" layoutY="30.0" prefHeight="35.0" prefWidth="246.0" text="Memory Managemnt System" textFill="#d1320e">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtname" layoutX="120.0" layoutY="138.0" prefHeight="26.0" prefWidth="362.0" promptText="Name" />
+      <TextField fx:id="txtaddress" layoutX="122.0" layoutY="187.0" prefHeight="26.0" prefWidth="362.0" promptText="Address" />
+      <TextField fx:id="txtposition" layoutX="123.0" layoutY="239.0" prefHeight="26.0" prefWidth="362.0" promptText="Position " />
+      <Button layoutX="71.0" layoutY="308.0" mnemonicParsing="false" onAction="#save" style="-fx-background-color: green;" text="SAVE" textFill="#8c802c">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="317.0" layoutY="418.0" mnemonicParsing="false" onAction="#cancel" style="-fx-background-color: red;" text="CANCEL" textFill="#8c802c">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="176.0" layoutY="308.0" mnemonicParsing="false" onAction="#update" style="-fx-background-color: yellow;" text="UPDATE" textFill="#8c802c">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="286.0" layoutY="308.0" mnemonicParsing="false" onAction="#delete" style="-fx-background-color: yellow;" text="DELETE" textFill="#8c802c">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="499.0" layoutY="308.0" mnemonicParsing="false" onAction="#getall" style="-fx-background-color: yellow;" text="GET ALL" textFill="#8c802c">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
